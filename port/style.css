@@ -1,0 +1,53 @@
+.heroshot{
+    background-image: url(/grey3q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:90vh;
+    color: #f5f3f4;
+    }
+.heroshot h1{
+    font-size: 4em;
+    font-weight: 200;
+}
+.heroshot p{
+    font-size: 1.25em;
+    font-weight: 100;
+} 
+
+.mask-custom {
+background-size: cover;
+  backdrop-filter: blur(7px);
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 1s;
+}
+.mask-custom:hover{
+background-size: cover;
+  backdrop-filter: blur(2px);
+  background-color:  rgba(255, 255, 255, 0.2));
+  transition: all 1s;
+}
+
+.dropdown-menu {
+    background-color: #d3d3d3ab !important;
+     
+}
+.header-btn{
+    background-color: #660708;
+    color: #f5f3f4;
+    
+}
+.header-btn:hover {
+    border:solid 2px #660708;
+    background-color: #e5383b52;
+    color: #f5f3f4;
+    transition: all .15s;
+}
+.header-contact{
+    padding-top: 6em;
+    width: 250px !important;
+}
+.navbar{
+    background-color: #161a1d;
+    border-bottom: solid 4px #e5383b;
+}
